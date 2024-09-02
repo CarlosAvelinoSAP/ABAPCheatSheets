@@ -47,7 +47,6 @@ CLASS zcl_demo_abap_internal_tables DEFINITION
     INTERFACES: if_oo_adt_classrun.
     CLASS-METHODS: class_constructor.
 
-protected section.
   PRIVATE SECTION.
     "Creating structured data types.
     TYPES: "Line types for internal tables
